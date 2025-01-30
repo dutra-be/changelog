@@ -1,0 +1,84 @@
+header {
+    width: 100%;
+    min-height: 250px;
+    padding: 2rem;
+    background-color: var(--bg-color);
+
+    color: var(--text-color-1);
+
+    /* Grid BG */
+    background-size: 30px 30px;
+    background-image: linear-gradient(to bottom, #efeff0 .8px, transparent .8px), linear-gradient(to left, #DCDEE0 .8px, transparent .8px);
+    background-position: top center;
+    image-rendering: pixelated;
+    mask-image: linear-gradient(to bottom, transparent, 10%, rgb(255, 255, 255), 90%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, 10%, rgb(255, 255, 255), 90%, transparent);
+}
+
+/* *** */
+.bradContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* *** */
+.logoContainer {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    background-color: aliceblue;
+
+    width: 4rem;
+    height: 4rem;
+
+    margin-right: 1rem;
+}
+
+.logoContainer .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.logoContainer img {
+    width: 40px;
+}
+
+/* *** */
+.brandName {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.brandName span {
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--text-color-0);
+}
+
+.brandName small {
+    font-size: .8rem;
+    font-weight: 200;
+    color: var(--text-color-0);
+}
+
+.brandName small a {
+    text-decoration: none;
+}
+
+/* *** */
+.changelogDescription {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-top: 2rem;
+    max-width: 800px;
+    color: var(--text-color-0);
+}
