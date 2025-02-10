@@ -1,5 +1,17 @@
 export const VERSION_DETAILS = [
     {
+        "version": "1.45.22",
+        "date": "February 10, 2025",
+        "added": [],
+        "changed": [
+            "Affaire Module: Set sizes value to 1 (XS -> 4xl)",
+            "Email templates (account activation, offer validation, offer reminders)",
+        ],
+        "fixed": [
+            "Affaire Module: Custom header and footer for offer confirmation emails",
+        ],
+    },
+    {
         "version": "1.43.21",
         "date": "January 6, 2025",
         "added": [
